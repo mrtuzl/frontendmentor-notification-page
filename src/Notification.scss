@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+$font: 'Plus Jakarta Sans', sans-serif;
+$white: hsl(0, 0%, 100%);
+$vlgblue:hsl(210, 60%, 98%);
+$lgblue1: hsl(211, 68%, 94%);
+$lgblue2: hsl(205, 33%, 90%);
+$gblue: hsl(219, 14%, 63%);
+$dgblue: hsl(219, 12%, 42%);
+$vdblue: hsl(224, 21%, 14%);
+$red: hsl(1, 90%, 64%);
+$blue: hsl(219, 85%, 26%);
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+   
+
+}
+.not{
+    display: flex;
+    padding:15px;
+    border-radius: 10px;
+    background-color: $white;
+    font-family: $font;
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+    .not-img img{
+        width: 50px;
+        height: 50px;
+    }
+    .not-info{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        align-items:flex-start;
+
+        .first-line{
+            display: flex;
+            padding-top: 5px;
+            text-align: left;
+            p{
+          
+             
+            }
+            p > *{
+                padding-left: 3px;
+            }
+                .info-name{
+                    font-weight: 800;
+                
+                }
+                .info-case{
+                    color: $dgblue;
+                    font-weight: 500;
+                }
+                .info-last{
+                    color: $dgblue;
+                    font-weight: 800;
+                }
+                .info-dot{
+                    width: 7px;
+                    height: 7px;
+                    border-radius: 25px;
+                    margin: 5px 0px 0px 5px;
+                    background-color: $white;
+                    display: inline-block;
+        
+                   
+                }
+                .dot{
+                    background-color: red;
+                
+                }
+               
+                .club{
+                    color: $blue;
+                }
+        }
+        div.first-line > * {
+           padding-left: 5px;
+        }
+        .time{
+            text-align: left;
+            padding: 5px;
+            color: $gblue;
+        }
+        .message{
+            padding: 10px 10px 10px 10px;
+            text-align: left;
+            border: 1px solid $lgblue1;
+            color: $gblue;
+            border-radius: 5px;
+        }
+        .nomessage{
+          display: none;
+        }
+    
+    }
+}
+.blue{
+    background-color: $vlgblue;
+}
+.hide-img img{
+display: none;
+}
+.second-img img{
+    width: 40px;
+    height: 40px;
+    margin-left: 120px;
+}
+
+.info-name:hover{
+    cursor: pointer;
+    color: $blue;
+}
+.club:hover{
+    cursor: pointer;
+    color: $blue !important;
+}
+.info-last:hover{
+    cursor: pointer;
+    color: $blue !important;
+}
+.second-img img:hover{
+    cursor: pointer;
+    border: 2px solid $lgblue2;
+    border-radius: 10px;
+}
+.message:hover{
+    background-color: $lgblue1;
+    cursor: pointer;
+}

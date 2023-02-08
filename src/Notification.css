@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.not {
+  display: flex;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: hsl(0deg, 0%, 100%);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+}
+.not .not-img img {
+  width: 50px;
+  height: 50px;
+}
+.not .not-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  align-items: flex-start;
+}
+.not .not-info .first-line {
+  display: flex;
+  padding-top: 5px;
+  text-align: left;
+}
+.not .not-info .first-line p > * {
+  padding-left: 3px;
+}
+.not .not-info .first-line .info-name {
+  font-weight: 800;
+}
+.not .not-info .first-line .info-case {
+  color: hsl(219deg, 12%, 42%);
+  font-weight: 500;
+}
+.not .not-info .first-line .info-last {
+  color: hsl(219deg, 12%, 42%);
+  font-weight: 800;
+}
+.not .not-info .first-line .info-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 25px;
+  margin: 5px 0px 0px 5px;
+  background-color: hsl(0deg, 0%, 100%);
+  display: inline-block;
+}
+.not .not-info .first-line .dot {
+  background-color: red;
+}
+.not .not-info .first-line .club {
+  color: hsl(219deg, 85%, 26%);
+}
+.not .not-info div.first-line > * {
+  padding-left: 5px;
+}
+.not .not-info .time {
+  text-align: left;
+  padding: 5px;
+  color: hsl(219deg, 14%, 63%);
+}
+.not .not-info .message {
+  padding: 10px 10px 10px 10px;
+  text-align: left;
+  border: 1px solid hsl(211deg, 68%, 94%);
+  color: hsl(219deg, 14%, 63%);
+  border-radius: 5px;
+}
+.not .not-info .nomessage {
+  display: none;
+}
+
+.blue {
+  background-color: hsl(210deg, 60%, 98%);
+}
+
+.hide-img img {
+  display: none;
+}
+
+.second-img img {
+  width: 40px;
+  height: 40px;
+  margin-left: 120px;
+}
+
+.info-name:hover {
+  cursor: pointer;
+  color: hsl(219deg, 85%, 26%);
+}
+
+.club:hover {
+  cursor: pointer;
+  color: hsl(219deg, 85%, 26%) !important;
+}
+
+.info-last:hover {
+  cursor: pointer;
+  color: hsl(219deg, 85%, 26%) !important;
+}
+
+.second-img img:hover {
+  cursor: pointer;
+  border: 2px solid hsl(205deg, 33%, 90%);
+  border-radius: 10px;
+}
+
+.message:hover {
+  background-color: hsl(211deg, 68%, 94%);
+  cursor: pointer;
+}/*# sourceMappingURL=Notification.css.map */

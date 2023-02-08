@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(210deg, 60%, 98%);
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container .not-card {
+  border: 1px solid hsl(0deg, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 10px;
+  padding: 30px;
+  width: 610px;
+  align-items: normal;
+}
+.container .info-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.container .info-top h1 {
+  display: inline;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.container .info-top span {
+  background-color: hsl(219deg, 85%, 26%);
+  width: 27px;
+  height: 25px;
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  margin-top: 3px;
+  margin-left: 10px;
+}
+.container .info-top p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: hsl(219deg, 12%, 42%);
+}
+
+.info-top p:hover {
+  cursor: pointer;
+  color: hsl(219deg, 85%, 26%);
+}/*# sourceMappingURL=App.css.map */

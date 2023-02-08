@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+$font: 'Plus Jakarta Sans', sans-serif;
+$white: hsl(0, 0%, 100%);
+$vlgblue: hsl(210, 60%, 98%);
+$lgblue1: hsl(211, 68%, 94%);
+$lgblue2: hsl(205, 33%, 90%);
+$gblue: hsl(219, 14%, 63%);
+$dgblue: hsl(219, 12%, 42%);
+$vdblue: hsl(224, 21%, 14%);
+$red: hsl(1, 90%, 64%);
+$blue: hsl(219, 85%, 26%);
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: $vlgblue;
+    font-family: $font;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .not-card{
+        border: 1px solid $white;
+        display: flex;
+        flex-direction: column;
+        background-color: $white;
+        border-radius: 10px;
+        padding: 30px;
+        width: 610px;
+        align-items: normal;
+    }
+    .info-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        h1{
+            display: inline;
+            font-weight: 700;
+           font-size: 1.5rem;
+        }
+        span{
+            background-color: $blue;
+            width: 27px;
+            height: 25px;
+            color: $white;
+            font-weight: 500;
+            font-size: 1rem;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            float: right;
+            margin-top: 3px;
+            margin-left: 10px;
+        }
+        p{
+            font-family: $font;
+            color: $dgblue;
+        }
+    }
+   
+}
+.info-top p:hover{
+    cursor: pointer;
+    color:$blue;
+}
