@@ -15,16 +15,44 @@ import { useState } from 'react';
 
 
 function App() {
+ 
+  const [count, setCount] = useState(3);
 
-  const [isRead, setIsRead] = useState(true);
+  const [isRead1, setIsRead] = useState(true);
+  const [isRead2, setIsRead2] = useState(true);
+  const [isRead3, setIsRead3] = useState(true);
   const [isMessage, setIsMessage] = useState(true);
   const [isSecondimg, setIsSecondimg] = useState(true);
 
-  const onClickRead = () => {
-    if(isRead) {
+  const onClickReadAll = () => {
+  
             setIsRead(false)
-    }
+            setIsRead2(false)
+            setIsRead3(false)
+            setCount(0)
+    
 }
+const isread1 = () => {
+     if(isRead1) {
+             setIsRead(false)
+             setCount(count - 1)
+     }
+ }
+
+ const isread2 = () => {
+     if(isRead2) {
+             setIsRead2(false)
+             setCount(count - 1)
+     }
+ }
+
+ const isread3 = () => {
+     if(isRead3) {
+             setIsRead3(false)
+             setCount(count - 1)
+     }
+ }
+
 
   return (
     <div className="container">
@@ -32,10 +60,10 @@ function App() {
           <div className='info-top'> 
             <div> 
             <h1> Notifications </h1>
-           <span> 3 </span>
+           <span> {count} </span>
             </div>  
             
-              <p onClick={onClickRead}> Mark all as read</p>
+              <p onClick={onClickReadAll}> Mark all as read</p>
           </div>
           <div className='notifications'> 
 
@@ -45,10 +73,11 @@ function App() {
      case="reacted to your recent post"
      last="My first tournament today!"
      club=""
-     dot={isRead}
+     dot={isRead1}
      time="1m ago"
      ismessage={!isMessage}
      isimg={!isSecondimg}
+     onClick={isread1}
      />
 
 <Notification 
@@ -57,10 +86,11 @@ function App() {
      case="followed you"
      last=""
      club=""
-     dot={isRead}
+     dot={isRead2}
      time="5m ago"
      ismessage={!isMessage}
      isimg={!isSecondimg}
+     onClick={isread2}
      />
 
 <Notification 
@@ -69,10 +99,11 @@ function App() {
      case="has joined your group"
      last="Chess Club"
      club="true"
-     dot={isRead}
+     dot={isRead3}
      time="1 day ago"
      ismessage={!isMessage}
      isimg={!isSecondimg}
+     onClick={isread3}
      />
 
 <Notification 

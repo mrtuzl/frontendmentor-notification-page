@@ -4,7 +4,7 @@ import './Notification.css';
 function Notification(props) {
     console.log(props.dot);
   return (
-    <div className={`not ${props.dot ? "blue" : ""}`}>
+    <div className={`not ${props.dot ? "blue" : ""}`} onClick={props.onClick}>
             <div className='not-img'> <img src={props.img} alt="profile"/> </div>
             <div className='not-info'> 
                     <div className='first-line'> 
