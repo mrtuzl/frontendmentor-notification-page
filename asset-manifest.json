@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/frontendmentor-notification-page/static/css/main.6e3e0929.css",
-    "main.js": "/frontendmentor-notification-page/static/js/main.e2152e8f.js",
+    "main.js": "/frontendmentor-notification-page/static/js/main.3587363a.js",
     "static/js/787.8f2f970a.chunk.js": "/frontendmentor-notification-page/static/js/787.8f2f970a.chunk.js",
     "static/media/avatar-rizky-hasanuddin.webp": "/frontendmentor-notification-page/static/media/avatar-rizky-hasanuddin.2c9e9a5d4982e8f1b614.webp",
     "static/media/avatar-jacob-thompson.webp": "/frontendmentor-notification-page/static/media/avatar-jacob-thompson.ef1880754355ebe956bb.webp",
@@ -13,11 +13,11 @@
     "static/media/avatar-angela-gray.webp": "/frontendmentor-notification-page/static/media/avatar-angela-gray.be3397e8fa98e1cac926.webp",
     "index.html": "/frontendmentor-notification-page/index.html",
     "main.6e3e0929.css.map": "/frontendmentor-notification-page/static/css/main.6e3e0929.css.map",
-    "main.e2152e8f.js.map": "/frontendmentor-notification-page/static/js/main.e2152e8f.js.map",
+    "main.3587363a.js.map": "/frontendmentor-notification-page/static/js/main.3587363a.js.map",
     "787.8f2f970a.chunk.js.map": "/frontendmentor-notification-page/static/js/787.8f2f970a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e3e0929.css",
-    "static/js/main.e2152e8f.js"
+    "static/js/main.3587363a.js"
   ]
 }
