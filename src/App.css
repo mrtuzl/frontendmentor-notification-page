@@ -25,6 +25,7 @@ body {
   padding: 30px;
   width: 610px;
   align-items: normal;
+  margin: 25px;
 }
 .container .info-top {
   display: flex;
