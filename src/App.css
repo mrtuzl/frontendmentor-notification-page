@@ -61,4 +61,10 @@ body {
 .info-top p:hover {
   cursor: pointer;
   color: hsl(219deg, 85%, 26%);
+}
+
+@media screen and (max-width: 500px) {
+  .not-card {
+    margin-top: 250px !important;
+  }
 }/*# sourceMappingURL=App.css.map */

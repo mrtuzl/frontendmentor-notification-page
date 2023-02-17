@@ -72,3 +72,11 @@ body{
     cursor: pointer;
     color:$blue;
 }
+
+@media  screen and (max-width:500px) {
+    .not-card{
+        margin-top: 250px !important;
+     
+    }
+    
+}
